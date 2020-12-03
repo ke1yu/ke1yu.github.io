@@ -1,0 +1,114 @@
+
+/*パソコン１カラム*/
+@media screen and (max-width:1920px){
+/*パソコン文字設定*/
+    .entry-content p{
+        font-size: 17px;
+        line-height: 2.0em;
+        letter-spacing: .4px;
+        margin: 0;
+    }
+/*上部メニュー固定の時の内部リンクのズレ解消*/
+    @-webkit-keyframes modify{
+          0% { padding-top: 40px; margin-top: -40px; }
+        100% { padding-top: 0; margin-top: 0; }
+    }
+    @keyframes  modify{
+          0% { padding-top: 40px; margin-top: -40px; }
+        100% { padding-top: 0; margin-top: 0; }
+    }
+    :target {
+        -webkit-animation: modify 0.1s;
+        animation: modify 0.1s;}
+}
+
+/*タブレット*/
+@media screen and (max-width:992px){
+ .entry-content p{
+    font-size: 16px;
+    line-height: 2.0em;
+    letter-spacing: .4px;
+    margin: 0;
+ }
+}
+
+.entry-description{
+  display : none;
+}
+
+
+@media and (max-width: 576px){
+ .entry-content p{
+    font-size: 16px;
+    line-height: 2.3em;
+    letter-spacing: 0;
+    margin: 0;
+ }
+ .menu{
+    display: none;
+ }
+}
+
+.page-index .categories {
+order: 4;
+position: absolute;
+top: 0;
+right: 0;
+z-index: 10;
+}
+
+
+.page-archive .categories {
+order: 4;
+position: absolute;
+bottom: 0;
+left: 0;
+z-index: 10;
+}
+
+
+/*はてなスター*/
+.star-container {
+   display : none;
+}
+
+/* 記事タイトル */
+.entry-title a{
+    font-size: 24px; /* 文字サイズ */
+    line-height: 1.6; /* 行の高さ */
+}
+
+
+/* 目次 */
+.table-of-contents a {
+    font-size: 17px; /* 文字サイズ */
+}
+
+.entry-content h2{
+color: white;
+background: #38b48b;/*背景色*/
+padding: 0.5em;/*文字まわり（上下左右）の余白*/
+margin-top: 2.0em;
+}
+
+.entry-content h3{
+color: white;
+background: #80aba9;/*背景色*/
+padding: 0.5em;/*文字まわり（上下左右）の余白*/
+margin-top: 2.0em;
+}
+
+.entry-content h4{
+color: white;
+background: #97a791;/*背景色*/
+padding: 0.5em;/*文字まわり（上下左右）の余白*/
+margin-top: 2.0em;
+}
+
+.entry-content p{
+color: #101010;
+}
+
+body {
+    font-family: Segoe UI, 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', sans-serif;
+}
