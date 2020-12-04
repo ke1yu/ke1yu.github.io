@@ -1595,8 +1595,6 @@ div.footnote {
   .page-archive .entry-thumb-link {
     width: 24vw;
     height: 18vw;
-    margin-right: 72vw;
-    box-align: center;
   }
   .page-archive .entry-title-link {
     font-size: .9em !important;
