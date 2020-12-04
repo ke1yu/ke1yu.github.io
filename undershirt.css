@@ -1566,13 +1566,13 @@ div.footnote {
     flex-flow: row;
   }
   .page-archive .entry-thumb {
-    width: 24%;
-    height: 13.5%;
+    width: 24vw;
+    height: 18vw;
     /*margin-right: 72vw;
     box-align: center;*/
   }
   .page-archive .entry-title {
-    font-size: .8em !important;
+    font-size: .6em !important;
     line-height: 1.2 !important;
   }/*
   .archive-entry-header {
