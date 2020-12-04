@@ -1581,13 +1581,12 @@ div.footnote {
     -ms-flex-flow: column;
     flex-flow: column;
   }
-  /*
   .entry-header {
     -webkit-box-orient: horizontal !important;
     float: right !important;
     -ms-flex-flow: column;
     flex-flow: column;
-  }*/
+  }
   /*
   #content-inner {
     -webkit-box-orient: horizontal !important;
