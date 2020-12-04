@@ -1604,6 +1604,9 @@ div.footnote {
     font-size: .9em !important;
     line-height: 1.2 !important;
   }*/
+  .page-archive .entry-thumb {
+    height: 28vw;
+  }
   .social-buttons .bookmark-widget-counter {
     display: none;
   }
