@@ -1568,8 +1568,8 @@ div.footnote {
   .page-archive .entry-thumb {
     width: 24vw;
     height: 18vw;
-    margin-right: 72vw;
-    box-align: center;
+    /*margin-right: 72vw;
+    box-align: center;*/
   }
   .page-archive .entry-title {
     font-size: .9em !important;
