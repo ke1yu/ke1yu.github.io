@@ -1591,11 +1591,12 @@ div.footnote {
     -webkit-box-orient: horizontal !important;
     -ms-flex-flow: column;
     flex-flow: column;
-  }
+  }/*
   .page-archive .entry-thumb-link {
     width: 24vw;
     height: 18vw;
-  }/*
+  }*/
+  /*
   .page-archive .entry-title-link {
     font-size: .9em !important;
     line-height: 1.2 !important;
