@@ -1587,11 +1587,13 @@ div.footnote {
     -ms-flex-flow: column;
     flex-flow: column;
   }*/
+  /*
   #content-inner {
     -webkit-box-orient: horizontal !important;
     -ms-flex-flow: column;
     flex-flow: column;
-  }/*
+  }*/
+  /*
   .page-archive .entry-thumb-link {
     width: 24vw;
     height: 18vw;
