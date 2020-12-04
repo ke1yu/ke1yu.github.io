@@ -1574,13 +1574,14 @@ div.footnote {
   .page-archive .entry-title {
     font-size: .9em !important;
     line-height: 1.2 !important;
-  }
+  }/*
   .archive-entry-header {
     -webkit-box-orient: horizontal;
     float: right !important;
     -ms-flex-flow: column;
     flex-flow: column;
-  }/*
+  }*/
+  /*
   .entry-header {
     -webkit-box-orient: horizontal !important;
     float: right !important;
