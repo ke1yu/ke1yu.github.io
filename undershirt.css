@@ -1554,12 +1554,12 @@ div.footnote {
 
 /* UnderShirt - スマホでも記事を２列で表示 */
 @media (max-width: 576px){
-  .archive-entry {
+  /*.archive-entry {
     width: calc(50% - 6px);
   }
   .archive-entry:nth-child(2n) {
     margin-left: 12px;
-  }
+  }*/
   /*
   .archive-entry {
     -webkit-box-orient: horizontal !important;
