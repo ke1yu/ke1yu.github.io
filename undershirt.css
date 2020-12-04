@@ -1560,18 +1560,18 @@ div.footnote {
   .archive-entry:nth-child(2n) {
     margin-left: 12px;
   }*/
-  .page-archive .archive-entry {
+  .archive-entry {
     -webkit-box-orient: horizontal !important;
     -ms-flex-flow: row;
     flex-flow: row;
   }
-  .page-archive .entry-thumb {
+  .entry-thumb {
     width: 24vw;
     /*height: 18vw;*/
     /*margin-right: 72vw;
     box-align: center;*/
   }
-  .page-archive .entry-title {
+  .entry-title {
     font-size: .6em !important;
     line-height: 1.1 !important;
   }/*
