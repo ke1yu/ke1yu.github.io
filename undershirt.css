@@ -1572,8 +1572,8 @@ div.footnote {
     box-align: center;
   }
   .page-archive .entry-title {
-    font-size: 1.5em !important;
-    line-height: 1.1 !important;
+    font-size: 1.0em !important;
+    line-height: 1.2 !important;
   }
   .archive-entry-header {
     -webkit-box-orient: horizontal;
@@ -1586,12 +1586,13 @@ div.footnote {
     float: right !important;
     -ms-flex-flow: column;
     flex-flow: column;
-  }
+  }/*
   #content-inner {
     -webkit-box-orient: horizontal !important;
     -ms-flex-flow: column;
     flex-flow: column;
-  }
+  }*/
+  /*
   .page-archive .entry-thumb-link {
     width: 24vw;
     height: 18vw;
@@ -1599,7 +1600,7 @@ div.footnote {
   .page-archive .entry-title-link {
     font-size: 1.5em !important;
     line-height: 1.1 !important;
-  }
+  }*/
   .social-buttons .bookmark-widget-counter {
     display: none;
   }
