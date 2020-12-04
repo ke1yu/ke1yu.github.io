@@ -1593,8 +1593,10 @@ div.footnote {
     flex-flow: column;
   }
   .page-archive .entry-thumb-link {
-    width: calc( 100% + 40px);
-    margin: -20px 0 20px -20px;
+    width: 24vw;
+    height: 18vw;
+    margin-right: 72vw;
+    box-align: center;
   }
   /*
   .page-archive .entry-title-link {
