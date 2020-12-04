@@ -1567,7 +1567,7 @@ div.footnote {
   }
   .page-archive .entry-thumb {
     width: 24vw;
-    height: 18vw;
+    /*height: 18vw;*/
     /*margin-right: 72vw;
     box-align: center;*/
   }
