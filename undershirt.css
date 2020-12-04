@@ -1571,9 +1571,9 @@ div.footnote {
     margin-right: 72vw;
     box-align: center;
   }
-  .archive-entry-header .entry-title {
-    font-size: .6em !important;
-    line-height: 1.1 !important;
+  .page-archive .entry-title {
+    font-size: .8em !important;
+    line-height: 1.0 !important;
   }/*
   .archive-entry-header {
     -webkit-box-orient: horizontal;
