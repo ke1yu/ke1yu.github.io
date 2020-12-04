@@ -1572,7 +1572,7 @@ div.footnote {
     box-align: center;
   }
   .page-archive .entry-title {
-    font-size: 1.0em !important;
+    font-size: .9em !important;
     line-height: 1.2 !important;
   }
   .archive-entry-header {
@@ -1586,17 +1586,17 @@ div.footnote {
     float: right !important;
     -ms-flex-flow: column;
     flex-flow: column;
-  }/*
+  }
   #content-inner {
     -webkit-box-orient: horizontal !important;
     -ms-flex-flow: column;
     flex-flow: column;
-  }*/
-  /*
-  .page-archive .entry-thumb-link {
-    width: 24vw;
-    height: 18vw;
   }
+  .page-archive .entry-thumb-link {
+    width: calc( 100% + 40px);
+    margin: -20px 0 20px -20px;
+  }
+  /*
   .page-archive .entry-title-link {
     font-size: 1.5em !important;
     line-height: 1.1 !important;
