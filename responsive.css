@@ -1,55 +1,5 @@
-
-/*パソコン１カラム*/
-@media screen and (max-width:1920px){
-/*パソコン文字設定*/
-    .entry-content p{
-        font-size: 17px;
-        line-height: 2.0em;
-        letter-spacing: .4px;
-        margin: 0;
-    }
-/*上部メニュー固定の時の内部リンクのズレ解消*/
-    @-webkit-keyframes modify{
-          0% { padding-top: 40px; margin-top: -40px; }
-        100% { padding-top: 0; margin-top: 0; }
-    }
-    @keyframes  modify{
-          0% { padding-top: 40px; margin-top: -40px; }
-        100% { padding-top: 0; margin-top: 0; }
-    }
-    :target {
-        -webkit-animation: modify 0.1s;
-        animation: modify 0.1s;}
-}
-
-/*タブレット*/
-@media screen and (max-width:992px){
- .entry-content p{
-    font-size: 16px;
-    line-height: 2.0em;
-    letter-spacing: .4px;
-    margin: 0;
- }
-}
-
 .entry-description{
   display : none;
-}
-
-
-@media and (max-width: 576px){
- .entry-content p{
-    font-size: 16px;
-    line-height: 2.3em;
-    letter-spacing: 0;
-    margin: 0;
- }/*
- .menu{
-    display: none;
- }*/
- .social-buttons .bookmark-widget-counter {
-    display: none;
- }
 }
 
 .page-index .categories {
