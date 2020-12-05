@@ -47,6 +47,9 @@
  .menu{
     display: none;
  }
+ .social-buttons .bookmark-widget-counter {
+    display: none;
+ }
 }
 
 .page-index .categories {
